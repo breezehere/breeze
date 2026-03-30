@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Breeze's Home</title>
+    
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+    
+    <meta name="description" content="">
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+        
+                <script>
+                    const userPref = localStorage.getItem('theme');
+                    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                    if (userPref === 'dark' || (!userPref && systemDark)) {
+                        document.documentElement.setAttribute('data-theme', 'dark');
+                    }
+                </script>
+<meta name="generator" content="Hexo 8.1.1"></head>
+
+<body class="is-home">
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+        <svg class="sun-icon" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="moon-icon" viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
+
+    <div class="controls">
+    <button id="scatter-btn">
+        <svg class="svg-icon" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 6px;"
+            viewBox="0 0 24 24">
+            <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.92-10.44l5.67-5.67" />
+        </svg>
+        整理桌面
+    </button>
+</div>
+
+<!-- 导航 -->
+<div class="module mod-nav">
+    <h3 style="display: flex; align-items: center; gap: 8px;">
+        <svg class="svg-icon" style="width: 20px; height: 20px;" viewBox="0 0 24 24">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+        </svg>
+        Map
+    </h3>
+    <div style="display: flex; flex-direction: column; gap: 14px;">
+        <a href="/archives" class="nav-link">Archives<span>→</span></a>
+        <a href="/categories" class="nav-link">Categories<span>→</span></a>
+        <a href="/tags" class="nav-link">Tags<span>→</span></a>
+        <a href="/friends" class="nav-link">Friends<span>→</span></a>
+        <a href="/about" class="nav-link">About<span>→</span></a>
+    </div>
+</div>
+
+<!-- 文章列表 -->
+<div class="module mod-posts">
+    <h3 style="display: flex; align-items: center; justify-content: space-between;">
+        Notes
+        <svg class="svg-icon" viewBox="0 0 24 24">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+    </h3>
+    
+        <div class="post-item">
+            <span class="post-meta">
+                2026.03.30
+            </span>
+            <a href="/posts/hello-world.html">
+                Hello World
+            </a>
+        </div>
+        
+            <div style="text-align: right; margin-top: 8px;">
+                <a href="/archives"
+                    style="font-size: 13px; color: var(--text-muted); border-bottom: none;">查看全部 1 篇 →</a>
+            </div>
+</div>
+
+<!-- tag -->
+<div class="module mod-tags">
+    <h3>Tags</h3>
+    <div class="tag-list">
+        
+                <a href="/tags" class="tag"
+                    style="background: var(--primary-bg); color: var(--primary-text); border: none;">所有标签</a>
+    </div>
+</div>
+
+<!-- 联系方式 -->
+
+    <div class="module mod-contact">
+        <h3>Contact me</h3>
+        <div style="display: flex; gap: 16px; margin-top: 8px;">
+            
+                <a href="https://github.com/breezehere" title="GitHub" target="_blank"
+                    style="border: none; color: var(--text-main);">
+                    <svg class="svg-icon" viewBox="0 0 24 24">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                </a>
+                
+                    
+                            
+                                <a href="mailto:contact@breeze.moe" title="Mail"
+                                    style="border: none; color: var(--text-main);">
+                                    <svg class="svg-icon" viewBox="0 0 24 24">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </a>
+                                
+        </div>
+    </div>
+    
+
+        
+            <div class="module mod-quote" style="background: var(--quote-bg); color: var(--quote-text);">
+                <svg class="svg-icon" style="stroke: var(--accent); margin-bottom: -8px;" viewBox="0 0 24 24">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <p style="color: var(--quote-muted); font-style: italic; font-family: serif; font-size: 16px;">
+                    "生活不必非要意义，有趣足矣。"
+                </p>
+                <span class="post-meta" style="color: var(--quote-muted);">— Breeze</span>
+            </div>
+            
+
+
+                <!-- about -->
+                <div class="module mod-profile">
+                    <svg viewBox="0 0 100 100" style="width: 48px; height: 48px; margin-bottom: 8px;">
+                        <rect x="0" y="0" width="100" height="100" fill="var(--text-main)" rx="4"></rect>
+                        <circle cx="50" cy="50" r="20" fill="var(--card-bg)"></circle>
+                        <path d="M50 50 L80 80" stroke="var(--bg-color)" stroke-width="8"></path>
+                    </svg>
+                    <h2>Hi, 我是 Breeze。</h2>
+                    <p>这里没有固定的格子, 像浏览桌上的卡片一样, 你可以随意拖动它们.</p>
+                    <div>
+                        <a href="/about">Read more →</a>
+                    </div>
+                </div>
+
+        <div class="global-footer">
+            &copy; 2026 Breeze.<br>
+                    Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.
+        </div>
+
+        
+            
+<script src="/js/desktop.js"></script>
+
+                
+
+                    <script>
+                        const themeToggleBtn = document.getElementById('theme-toggle');
+                        themeToggleBtn.addEventListener('click', () => {
+                            const html = document.documentElement;
+                            if (html.getAttribute('data-theme') === 'dark') {
+                                html.removeAttribute('data-theme');
+                                localStorage.setItem('theme', 'light');
+                            } else {
+                                html.setAttribute('data-theme', 'dark');
+                                localStorage.setItem('theme', 'dark');
+                            }
+                        });
+                    </script>
+</body>
+
+</html>
