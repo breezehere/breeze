@@ -78,8 +78,8 @@
 <pre><code class="language-bash">git config --global user.name &quot;你的GitHub用户名&quot;
 git config --global user.email &quot;你的GitHub关联邮箱&quot;
 </code></pre>
-<h3 id="3-生成-SSH-密钥（免密登录用）">3. 生成 SSH 密钥（免密登录用）</h3>
-<p>这一步是为了不用每次都输密码。执行命令后一路回车就行，然后找到 id_rsa.pub 文件，把里面的内容复制出来：</p>
+<h3 id="3-生成-SSH-密钥">3. 生成 SSH 密钥</h3>
+<p>执行命令后一路回车就行，然后找到 id_rsa.pub 文件，把里面的内容复制出来：</p>
 <pre><code class="language-bash">ssh-keygen -t rsa -C &quot;你的GitHub关联邮箱&quot;
 </code></pre>
 <h3 id="4-把公钥添加到-GitHub">4. 把公钥添加到 GitHub</h3>
