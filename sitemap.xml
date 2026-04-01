@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://passage.breeze.moe/categories/</loc>
-    
-    <lastmod>2026-04-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://passage.breeze.moe/tags/</loc>
     
     <lastmod>2026-04-01</lastmod>
@@ -21,6 +12,15 @@
   
   <url>
     <loc>https://passage.breeze.moe/about/</loc>
+    
+    <lastmod>2026-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://passage.breeze.moe/categories/</loc>
     
     <lastmod>2026-04-01</lastmod>
     
@@ -106,14 +106,14 @@
 
   
   <url>
-    <loc>https://passage.breeze.moe/categories/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://passage.breeze.moe/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://passage.breeze.moe/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://passage.breeze.moe/categories/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

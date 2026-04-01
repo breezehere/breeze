@@ -1,6 +1,6 @@
-https://passage.breeze.moe/categories/
 https://passage.breeze.moe/tags/
 https://passage.breeze.moe/about/
+https://passage.breeze.moe/categories/
 https://passage.breeze.moe/friends/
 https://passage.breeze.moe/posts/hexo-configure-git-repository.html
 https://passage.breeze.moe/posts/my-new-domain-breeze-moe.html
@@ -10,5 +10,5 @@ https://passage.breeze.moe/
 https://passage.breeze.moe/tags/Debian/
 https://passage.breeze.moe/tags/Hexo/
 https://passage.breeze.moe/tags/Domain/
-https://passage.breeze.moe/categories/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/
 https://passage.breeze.moe/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/
+https://passage.breeze.moe/categories/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/
