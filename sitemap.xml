@@ -83,14 +83,14 @@
 
   
   <url>
-    <loc>https://passage.breeze.moe/tags/Docker/</loc>
+    <loc>https://passage.breeze.moe/tags/Debian/</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://passage.breeze.moe/tags/Debian/</loc>
+    <loc>https://passage.breeze.moe/tags/Docker/</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
