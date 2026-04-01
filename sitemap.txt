@@ -1,8 +1,8 @@
+https://passage.breeze.moe/posts/hexo-configure-git-repository.html
 https://passage.breeze.moe/about/
 https://passage.breeze.moe/friends/
 https://passage.breeze.moe/posts/my-new-domain-breeze-moe.html
 https://passage.breeze.moe/posts/debian-10-change-archive-sources.html
-https://passage.breeze.moe/posts/hexo-configure-git-repository.html
 https://passage.breeze.moe/posts/hello-world.html
 https://passage.breeze.moe/tags/
 https://passage.breeze.moe/categories/
