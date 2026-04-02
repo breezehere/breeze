@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://passage.breeze.moe/about/</loc>
+    <loc>https://breeze.moe/about/</loc>
     
     <lastmod>2026-04-02</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://passage.breeze.moe/posts/docker-container-image-structure.html</loc>
+    <loc>https://breeze.moe/posts/docker-container-image-structure.html</loc>
     
     <lastmod>2026-04-02</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://passage.breeze.moe/posts/docker-environment-setup.html</loc>
+    <loc>https://breeze.moe/posts/docker-environment-setup.html</loc>
     
     <lastmod>2026-04-02</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://passage.breeze.moe/friends/</loc>
+    <loc>https://breeze.moe/friends/</loc>
     
     <lastmod>2026-04-01</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://passage.breeze.moe/posts/hexo-configure-git-repository.html</loc>
+    <loc>https://breeze.moe/posts/hexo-configure-git-repository.html</loc>
     
     <lastmod>2026-04-01</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://passage.breeze.moe/tags/</loc>
+    <loc>https://breeze.moe/tags/</loc>
     
     <lastmod>2026-04-01</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://passage.breeze.moe/categories/</loc>
+    <loc>https://breeze.moe/categories/</loc>
     
     <lastmod>2026-04-01</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://passage.breeze.moe/posts/debian-10-change-archive-sources.html</loc>
+    <loc>https://breeze.moe/posts/debian-10-change-archive-sources.html</loc>
     
     <lastmod>2026-04-01</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://passage.breeze.moe/posts/hello-world.html</loc>
+    <loc>https://breeze.moe/posts/hello-world.html</loc>
     
     <lastmod>2026-04-01</lastmod>
     
@@ -84,7 +84,7 @@
   
 
   <url>
-    <loc>https://passage.breeze.moe/</loc>
+    <loc>https://breeze.moe/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -92,21 +92,21 @@
 
   
   <url>
-    <loc>https://passage.breeze.moe/tags/Docker/</loc>
+    <loc>https://breeze.moe/tags/Debian/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://passage.breeze.moe/tags/Debian/</loc>
+    <loc>https://breeze.moe/tags/Docker/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://passage.breeze.moe/tags/Hexo/</loc>
+    <loc>https://breeze.moe/tags/Hexo/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -115,14 +115,14 @@
 
   
   <url>
-    <loc>https://passage.breeze.moe/categories/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://breeze.moe/categories/%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://passage.breeze.moe/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://breeze.moe/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
